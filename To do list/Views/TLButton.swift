@@ -8,17 +8,7 @@ struct TLButton: View {
     let action: () -> Void
     
     var body: some View {
-//        Button{
-//            action()
-//        }label:{
-//            ZStack{
-//                RoundedRectangle(cornerRadius: 10)
-//                    .foregroundColor(background)
-//                Text(title)
-//                    .foregroundColor(.white)
-//                    .bold()
-//            }
-//        }
+
         Button(title){
             action()
         }
