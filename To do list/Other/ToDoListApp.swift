@@ -6,15 +6,18 @@
 //
 import FirebaseCore
 import SwiftUI
+import IQKeyboardManagerSwift
 
 @main
-struct To_do_listApp: App {
+struct ToDoListApp: App {
     init(){
         FirebaseApp.configure()
+        
     }
+   
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
