@@ -18,18 +18,18 @@ https://github.com/user-attachments/assets/6f4a539f-41d6-4170-90e8-a6b3850300d0
 * Firebase
 
 ## Installation
-1, Clone the repository 
+### 1, Clone the repository 
 
 `git clone https://github.com/yourusername/MySwiftApp.git](https://github.com/Hisa12/swift-todolist.git`
 
 
-2, Open the project in Xcode
+### 2, Open the project in Xcode
 
-`cd swift-todolist`
+`cd swift-todolist`, then
 open "To do list.xcodeproj"
 
 
-3, Set up Firebase
+### 3. Set up Firebase
 
 Follow the instructions [here](https://firebase.google.com/docs/ios/setup) to configure Firebase:
 - Create a Firebase project in the Firebase Console.
@@ -38,7 +38,7 @@ Follow the instructions [here](https://firebase.google.com/docs/ios/setup) to co
 - Add Firebase SDK frameworks manually.
 
 
-4, Build and Run the Project
+### 4, Build and Run the Project
 
 Select a target (simulator or connected device) in Xcode.
 Click the "Run" button or press Command + R to build and run the application.
